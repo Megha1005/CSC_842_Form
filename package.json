@@ -22,7 +22,7 @@
     "reactstrap": "^8.5.1"
   },
   "scripts": {
-    "deploy":"aws s3 sync build/ s3://datasurveyform",
+    "deploy": "aws s3 sync build/ s3://datasurveyform",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
