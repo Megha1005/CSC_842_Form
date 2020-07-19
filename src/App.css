@@ -1,0 +1,146 @@
+body {
+  background: black;
+  border-color:black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.form-label-group{
+  color:red;
+}
+
+.mb-3{
+  background-color:#eeeeee;
+  border-color:grey;
+  border-style: solid;
+  padding: 10px 30px;
+  border-weight:2px;
+}
+.container{
+  background-color:#eeeeee;
+  border-weight:10px;
+  border-color:black;
+  border-style: solid;
+}
+
+.label{
+  color:green;  
+}
+
+.card{
+  color:purple;
+}
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  border-color:black;
+  border-weight:0.2px;
+}
+
+h1 {
+  font-weight: 100;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.re-cap{
+  padding: 10px 200px;
+  margin-bottom:20px;
+
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color:blue;
+}
+
+label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+
+.checkentry{
+  padding:10px 100px;
+  margin-top:10px;
+}
+
+
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+    border-color:black;
+  border-weight:20px;
+}
+
+button[type="button"] {
+  display: block;
+  appearance: none;
+  background: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+input.larger{
+  padding: 10px 100px;
+  transform: scale(5);
+  width: 15px;
+  height: 7px;
+  margin: 0.5px 100px;
+}
